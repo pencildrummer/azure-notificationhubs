@@ -1,0 +1,16 @@
+PODS:
+  - WindowsAzureMessaging (1.0.0)
+
+DEPENDENCIES:
+  - WindowsAzureMessaging (from `../`)
+
+EXTERNAL SOURCES:
+  WindowsAzureMessaging:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WindowsAzureMessaging: c4134aeaed9ab5a2321f543cf7295dffae37c3d0
+
+PODFILE CHECKSUM: 41f2781c15b27b2a6e5db5d969ddfd98381e712b
+
+COCOAPODS: 1.0.1

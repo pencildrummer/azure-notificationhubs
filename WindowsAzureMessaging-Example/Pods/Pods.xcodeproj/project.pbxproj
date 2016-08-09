@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D89291971A4721E0B7AE7FF463DACF /* SBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E2069529AD720C87C948C218254C /* SBURLConnection.m */; };
+		07EE13AAFB96A60DE2F8B1BFD1C998EC /* Pods-WindowsAzureMessaging-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DCB0FD170F614F337BA15A8B28B1B3 /* Pods-WindowsAzureMessaging-Example-dummy.m */; };
+		0C4531DF306429069E1453C190ECCCB8 /* SBConnectionString.h in Headers */ = {isa = PBXBuildFile; fileRef = D897823857C764643861E9F04E78BC21 /* SBConnectionString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD93BFF2ADFE794DFD2F33F49D2FFCD /* SBStoredRegistrationEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF3239B207714368670930438AFAD6F /* SBStoredRegistrationEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ABE104AADE95BB01B410631C8D37FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		427A746E48571CFE7214D42FF0278FF2 /* WindowsAzureMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAC208F5383380C6B02AC0355CA05F2 /* WindowsAzureMessaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B36075396102CF7F8A99EB184F41C4 /* SBNotificationHubHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 115BDFEDC38275E9CCF8C3890AF2B6D0 /* SBNotificationHubHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56454DE4D67477BD68AA9B2C7129AB87 /* SBRegistrationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E4847EC3AC86874FAEC55693372D4F /* SBRegistrationParser.m */; };
+		5CE8125F5DF03BD8845E8BB7288C7E7B /* SBStaticHandlerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8BAD53FA04F9F5D27F026F986CF14D /* SBStaticHandlerResponse.m */; };
+		652581CF6F150B1DB5B5B56D5131DDB7 /* SBRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E18C93A2BF18287BC9542648F63C1C9 /* SBRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C8AB059DBC5F4CB13C797DED78D417 /* SBStaticHandlerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A86576BF25E6623642CB7BB20C167B6 /* SBStaticHandlerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785B3E15EB980620F4CD9525A09F9978 /* SBTemplateRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = AD275D602300A3E05AD3404E1E4FCA45 /* SBTemplateRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BF440EAA33384EE44FBC453A270D0A9 /* SBURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A656549DAE85879334F600B1202336 /* SBURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		800254EEB4E4FC9140CC81EB5E54F294 /* SBRegistrationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D51EFD540D675209715B81083D8C3307 /* SBRegistrationParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81EB76787C7AA4AA4D5974D0FD6E4EBE /* SBLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = F41886CC95862B7CC69DBD9B4E39D104 /* SBLocalStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		838BB40BF6C02A0BDF7344120F0D33F9 /* SBConnectionString.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5AD5D4EA0284FCD67A660D85F2894 /* SBConnectionString.m */; };
+		84D7C54B46B622B573570B5EA1794B59 /* SBRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 239376EF51E4BF3F29B95616B0286457 /* SBRegistration.m */; };
+		8BA0BD37BD31C006C4E7F6376921C3E7 /* SBTokenProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB95FDCFADF7E0347A9B5289DD1249A /* SBTokenProvider.m */; };
+		9EA8CD7EC1CAA0872DBAC9A7069D30BB /* SBTemplateRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2276156E073DBD19B5E880E7C2A51C4A /* SBTemplateRegistration.m */; };
+		A2987796004B94324B8B608A5181D4FC /* SBTokenProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F156C9FEAF85EF7538A7A838C0BCD5 /* SBTokenProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60E6E38B1A714F46EF5EE580BCB3DF9 /* SBNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC430676691F93B7D6F581D531E5EA1 /* SBNotificationHub.m */; };
+		BAAC4779D523D308E1EFFFB7E9FB3FC2 /* SBLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8384F66B6ACA9AD265CCA39D69EBB9 /* SBLocalStorage.m */; };
+		BBDA9B799325CD8C4DB87B7410E9C981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C3E875C8140498D99CCB3C9948749C0B /* SBStoredRegistrationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F851092B68E0D7041D4851652C83E545 /* SBStoredRegistrationEntry.m */; };
+		C54DAE2210C0134DC217762A559A08EA /* SBNotificationHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E7722758E31A4CBA3808144115ACDE /* SBNotificationHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBACC73CCEB7D2CA2AE24D18C4E5B0E9 /* SBNotificationHubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7695AAFC178D2D3D11CEBCD83386F34 /* SBNotificationHubHelper.m */; };
+		E672D4AC0DBAD9A36439926EB852A4E5 /* WindowsAzureMessaging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8D8A754B13245AA5693F64C3A0B5B /* WindowsAzureMessaging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6084C72987873FA9A71E13E97C7ED4F /* Pods-WindowsAzureMessaging-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 318708ED25BA1A4F2A55CA1CF84B55E6 /* Pods-WindowsAzureMessaging-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB252FD946792636F4FF7FB7C0854B54 /* WindowsAzureMessaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5276D0593603C2482F068BF228F4811 /* WindowsAzureMessaging-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4033AE19A3A4239208BF7F16C07170B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18918A50CC4C71F703F37D264CC7255;
+			remoteInfo = WindowsAzureMessaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		115BDFEDC38275E9CCF8C3890AF2B6D0 /* SBNotificationHubHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBNotificationHubHelper.h; sourceTree = "<group>"; };
+		2276156E073DBD19B5E880E7C2A51C4A /* SBTemplateRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBTemplateRegistration.m; sourceTree = "<group>"; };
+		239376EF51E4BF3F29B95616B0286457 /* SBRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBRegistration.m; sourceTree = "<group>"; };
+		24F8D8A754B13245AA5693F64C3A0B5B /* WindowsAzureMessaging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WindowsAzureMessaging-umbrella.h"; sourceTree = "<group>"; };
+		2A86576BF25E6623642CB7BB20C167B6 /* SBStaticHandlerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBStaticHandlerResponse.h; sourceTree = "<group>"; };
+		318708ED25BA1A4F2A55CA1CF84B55E6 /* Pods-WindowsAzureMessaging-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WindowsAzureMessaging-Example-umbrella.h"; sourceTree = "<group>"; };
+		34AE03BA72ECC09C978335BC71C1C12A /* Pods-WindowsAzureMessaging-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WindowsAzureMessaging-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E8384F66B6ACA9AD265CCA39D69EBB9 /* SBLocalStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBLocalStorage.m; sourceTree = "<group>"; };
+		405B3B7A858459C62580C6C4CE4B5702 /* WindowsAzureMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WindowsAzureMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F156C9FEAF85EF7538A7A838C0BCD5 /* SBTokenProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBTokenProvider.h; sourceTree = "<group>"; };
+		4FB95FDCFADF7E0347A9B5289DD1249A /* SBTokenProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBTokenProvider.m; sourceTree = "<group>"; };
+		5AF3239B207714368670930438AFAD6F /* SBStoredRegistrationEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBStoredRegistrationEntry.h; sourceTree = "<group>"; };
+		5E18C93A2BF18287BC9542648F63C1C9 /* SBRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBRegistration.h; sourceTree = "<group>"; };
+		614033B81BE38235FB2FB72C7E94128A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E7722758E31A4CBA3808144115ACDE /* SBNotificationHub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBNotificationHub.h; sourceTree = "<group>"; };
+		6AAC208F5383380C6B02AC0355CA05F2 /* WindowsAzureMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WindowsAzureMessaging.h; sourceTree = "<group>"; };
+		71A5201AC35F1B57BD0DFCC288EC2256 /* Pods-WindowsAzureMessaging-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WindowsAzureMessaging-Example.release.xcconfig"; sourceTree = "<group>"; };
+		73E4F8B4E4625ED47DA42A32D425AE9D /* Pods-WindowsAzureMessaging-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WindowsAzureMessaging-Example-resources.sh"; sourceTree = "<group>"; };
+		7D6648154A42BE74FAF1399A4CD0A52A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A656549DAE85879334F600B1202336 /* SBURLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBURLConnection.h; sourceTree = "<group>"; };
+		9245DE9028F3E7937D338D116E856961 /* Pods-WindowsAzureMessaging-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WindowsAzureMessaging-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A405BAF2968145CCC872BA2ABD76582F /* Pods-WindowsAzureMessaging-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WindowsAzureMessaging-Example-frameworks.sh"; sourceTree = "<group>"; };
+		A7695AAFC178D2D3D11CEBCD83386F34 /* SBNotificationHubHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBNotificationHubHelper.m; sourceTree = "<group>"; };
+		AAF5AD5D4EA0284FCD67A660D85F2894 /* SBConnectionString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBConnectionString.m; sourceTree = "<group>"; };
+		AD275D602300A3E05AD3404E1E4FCA45 /* SBTemplateRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBTemplateRegistration.h; sourceTree = "<group>"; };
+		B5A668E6AD1E399F79B61089E60536AC /* Pods_WindowsAzureMessaging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindowsAzureMessaging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DCB0FD170F614F337BA15A8B28B1B3 /* Pods-WindowsAzureMessaging-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WindowsAzureMessaging-Example-dummy.m"; sourceTree = "<group>"; };
+		B9B5E2069529AD720C87C948C218254C /* SBURLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBURLConnection.m; sourceTree = "<group>"; };
+		BA56E71F7B37E900D31D0B48BF27432D /* WindowsAzureMessaging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WindowsAzureMessaging.modulemap; sourceTree = "<group>"; };
+		C1A8F47D0A5F67B08B4B72AFC9302AB3 /* WindowsAzureMessaging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WindowsAzureMessaging-prefix.pch"; sourceTree = "<group>"; };
+		CA8BAD53FA04F9F5D27F026F986CF14D /* SBStaticHandlerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBStaticHandlerResponse.m; sourceTree = "<group>"; };
+		CAC430676691F93B7D6F581D531E5EA1 /* SBNotificationHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBNotificationHub.m; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF3E30A8CC450C0299ADD24B9CD7C8E3 /* Pods-WindowsAzureMessaging-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WindowsAzureMessaging-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D51EFD540D675209715B81083D8C3307 /* SBRegistrationParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBRegistrationParser.h; sourceTree = "<group>"; };
+		D897823857C764643861E9F04E78BC21 /* SBConnectionString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBConnectionString.h; sourceTree = "<group>"; };
+		DB6B63FE0E9966E445AFF4E9F176FA37 /* Pods-WindowsAzureMessaging-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WindowsAzureMessaging-Example.modulemap"; sourceTree = "<group>"; };
+		E2E4847EC3AC86874FAEC55693372D4F /* SBRegistrationParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBRegistrationParser.m; sourceTree = "<group>"; };
+		E7225DC1B93E2F6C8F0E4CC9CFC6E3EE /* WindowsAzureMessaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WindowsAzureMessaging.xcconfig; sourceTree = "<group>"; };
+		F41886CC95862B7CC69DBD9B4E39D104 /* SBLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBLocalStorage.h; sourceTree = "<group>"; };
+		F5276D0593603C2482F068BF228F4811 /* WindowsAzureMessaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WindowsAzureMessaging-dummy.m"; sourceTree = "<group>"; };
+		F851092B68E0D7041D4851652C83E545 /* SBStoredRegistrationEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBStoredRegistrationEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87878F4159621AF41FF90319728B9218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDA9B799325CD8C4DB87B7410E9C981 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EAB6968FA1296700FF617699F40F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABE104AADE95BB01B410631C8D37FF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C29E31C738FD3D19D78C5D527224605 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE548615725FD49D86F8CC259CEC3A /* WindowsAzureMessaging */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4121FF8733AA8F491A381F9A568D9716 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F41886CC95862B7CC69DBD9B4E39D104 /* SBLocalStorage.h */,
+				3E8384F66B6ACA9AD265CCA39D69EBB9 /* SBLocalStorage.m */,
+				115BDFEDC38275E9CCF8C3890AF2B6D0 /* SBNotificationHubHelper.h */,
+				A7695AAFC178D2D3D11CEBCD83386F34 /* SBNotificationHubHelper.m */,
+				D51EFD540D675209715B81083D8C3307 /* SBRegistrationParser.h */,
+				E2E4847EC3AC86874FAEC55693372D4F /* SBRegistrationParser.m */,
+				2A86576BF25E6623642CB7BB20C167B6 /* SBStaticHandlerResponse.h */,
+				CA8BAD53FA04F9F5D27F026F986CF14D /* SBStaticHandlerResponse.m */,
+				5AF3239B207714368670930438AFAD6F /* SBStoredRegistrationEntry.h */,
+				F851092B68E0D7041D4851652C83E545 /* SBStoredRegistrationEntry.m */,
+				45F156C9FEAF85EF7538A7A838C0BCD5 /* SBTokenProvider.h */,
+				4FB95FDCFADF7E0347A9B5289DD1249A /* SBTokenProvider.m */,
+				82A656549DAE85879334F600B1202336 /* SBURLConnection.h */,
+				B9B5E2069529AD720C87C948C218254C /* SBURLConnection.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		46C23A9DA64F31FC7EB73445F0CD2C6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6028AC498E2C4A496D496708A5A072A2 /* Pods-WindowsAzureMessaging-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DCE548615725FD49D86F8CC259CEC3A /* WindowsAzureMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				B275EA5DDDBE41CC994B97CB340AD795 /* iOS */,
+				CAF5C66B9122F07D7309BF897040A879 /* Support Files */,
+			);
+			name = WindowsAzureMessaging;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6028AC498E2C4A496D496708A5A072A2 /* Pods-WindowsAzureMessaging-Example */ = {
+			isa = PBXGroup;
+			children = (
+				7D6648154A42BE74FAF1399A4CD0A52A /* Info.plist */,
+				DB6B63FE0E9966E445AFF4E9F176FA37 /* Pods-WindowsAzureMessaging-Example.modulemap */,
+				9245DE9028F3E7937D338D116E856961 /* Pods-WindowsAzureMessaging-Example-acknowledgements.markdown */,
+				CF3E30A8CC450C0299ADD24B9CD7C8E3 /* Pods-WindowsAzureMessaging-Example-acknowledgements.plist */,
+				B5DCB0FD170F614F337BA15A8B28B1B3 /* Pods-WindowsAzureMessaging-Example-dummy.m */,
+				A405BAF2968145CCC872BA2ABD76582F /* Pods-WindowsAzureMessaging-Example-frameworks.sh */,
+				73E4F8B4E4625ED47DA42A32D425AE9D /* Pods-WindowsAzureMessaging-Example-resources.sh */,
+				318708ED25BA1A4F2A55CA1CF84B55E6 /* Pods-WindowsAzureMessaging-Example-umbrella.h */,
+				34AE03BA72ECC09C978335BC71C1C12A /* Pods-WindowsAzureMessaging-Example.debug.xcconfig */,
+				71A5201AC35F1B57BD0DFCC288EC2256 /* Pods-WindowsAzureMessaging-Example.release.xcconfig */,
+			);
+			name = "Pods-WindowsAzureMessaging-Example";
+			path = "Target Support Files/Pods-WindowsAzureMessaging-Example";
+			sourceTree = "<group>";
+		};
+		68E535429629E8C01AB0763E2F933F5A /* WindowsAzureMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				D897823857C764643861E9F04E78BC21 /* SBConnectionString.h */,
+				AAF5AD5D4EA0284FCD67A660D85F2894 /* SBConnectionString.m */,
+				61E7722758E31A4CBA3808144115ACDE /* SBNotificationHub.h */,
+				CAC430676691F93B7D6F581D531E5EA1 /* SBNotificationHub.m */,
+				5E18C93A2BF18287BC9542648F63C1C9 /* SBRegistration.h */,
+				239376EF51E4BF3F29B95616B0286457 /* SBRegistration.m */,
+				AD275D602300A3E05AD3404E1E4FCA45 /* SBTemplateRegistration.h */,
+				2276156E073DBD19B5E880E7C2A51C4A /* SBTemplateRegistration.m */,
+				6AAC208F5383380C6B02AC0355CA05F2 /* WindowsAzureMessaging.h */,
+				4121FF8733AA8F491A381F9A568D9716 /* Helpers */,
+			);
+			path = WindowsAzureMessaging;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1C29E31C738FD3D19D78C5D527224605 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F5F5942F6F5951B049BF7FFEFA1143C6 /* Products */,
+				46C23A9DA64F31FC7EB73445F0CD2C6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B275EA5DDDBE41CC994B97CB340AD795 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD5DDB9899E7E5339278BB9F8D23A2 /* WindowsAzureMessaging */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B9BD5DDB9899E7E5339278BB9F8D23A2 /* WindowsAzureMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				68E535429629E8C01AB0763E2F933F5A /* WindowsAzureMessaging */,
+			);
+			path = WindowsAzureMessaging;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF5C66B9122F07D7309BF897040A879 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				614033B81BE38235FB2FB72C7E94128A /* Info.plist */,
+				BA56E71F7B37E900D31D0B48BF27432D /* WindowsAzureMessaging.modulemap */,
+				E7225DC1B93E2F6C8F0E4CC9CFC6E3EE /* WindowsAzureMessaging.xcconfig */,
+				F5276D0593603C2482F068BF228F4811 /* WindowsAzureMessaging-dummy.m */,
+				C1A8F47D0A5F67B08B4B72AFC9302AB3 /* WindowsAzureMessaging-prefix.pch */,
+				24F8D8A754B13245AA5693F64C3A0B5B /* WindowsAzureMessaging-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "WindowsAzureMessaging-Example/Pods/Target Support Files/WindowsAzureMessaging";
+			sourceTree = "<group>";
+		};
+		F5F5942F6F5951B049BF7FFEFA1143C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A668E6AD1E399F79B61089E60536AC /* Pods_WindowsAzureMessaging_Example.framework */,
+				405B3B7A858459C62580C6C4CE4B5702 /* WindowsAzureMessaging.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		97386FBC9D1356E6E6D72FC1415A66BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6084C72987873FA9A71E13E97C7ED4F /* Pods-WindowsAzureMessaging-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6FFC2C0AA34E96C6706973873E6510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4531DF306429069E1453C190ECCCB8 /* SBConnectionString.h in Headers */,
+				81EB76787C7AA4AA4D5974D0FD6E4EBE /* SBLocalStorage.h in Headers */,
+				C54DAE2210C0134DC217762A559A08EA /* SBNotificationHub.h in Headers */,
+				54B36075396102CF7F8A99EB184F41C4 /* SBNotificationHubHelper.h in Headers */,
+				652581CF6F150B1DB5B5B56D5131DDB7 /* SBRegistration.h in Headers */,
+				800254EEB4E4FC9140CC81EB5E54F294 /* SBRegistrationParser.h in Headers */,
+				68C8AB059DBC5F4CB13C797DED78D417 /* SBStaticHandlerResponse.h in Headers */,
+				1DD93BFF2ADFE794DFD2F33F49D2FFCD /* SBStoredRegistrationEntry.h in Headers */,
+				785B3E15EB980620F4CD9525A09F9978 /* SBTemplateRegistration.h in Headers */,
+				A2987796004B94324B8B608A5181D4FC /* SBTokenProvider.h in Headers */,
+				7BF440EAA33384EE44FBC453A270D0A9 /* SBURLConnection.h in Headers */,
+				E672D4AC0DBAD9A36439926EB852A4E5 /* WindowsAzureMessaging-umbrella.h in Headers */,
+				427A746E48571CFE7214D42FF0278FF2 /* WindowsAzureMessaging.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D18918A50CC4C71F703F37D264CC7255 /* WindowsAzureMessaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461AEC67F8127056E5AA35B8724333C2 /* Build configuration list for PBXNativeTarget "WindowsAzureMessaging" */;
+			buildPhases = (
+				075CE6012B29723CF6971CD3D387608C /* Sources */,
+				97EAB6968FA1296700FF617699F40F17 /* Frameworks */,
+				AE6FFC2C0AA34E96C6706973873E6510 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowsAzureMessaging;
+			productName = WindowsAzureMessaging;
+			productReference = 405B3B7A858459C62580C6C4CE4B5702 /* WindowsAzureMessaging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECAEBDECDD78207E860A2651A77724D0 /* Pods-WindowsAzureMessaging-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CE56D55DA9F5515157DAEBFD5E9E68 /* Build configuration list for PBXNativeTarget "Pods-WindowsAzureMessaging-Example" */;
+			buildPhases = (
+				845AA02BDF7B2E5445EF21D782D766CB /* Sources */,
+				87878F4159621AF41FF90319728B9218 /* Frameworks */,
+				97386FBC9D1356E6E6D72FC1415A66BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561520E755A07F13EC95ACF11188BA42 /* PBXTargetDependency */,
+			);
+			name = "Pods-WindowsAzureMessaging-Example";
+			productName = "Pods-WindowsAzureMessaging-Example";
+			productReference = B5A668E6AD1E399F79B61089E60536AC /* Pods_WindowsAzureMessaging_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F5F5942F6F5951B049BF7FFEFA1143C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAEBDECDD78207E860A2651A77724D0 /* Pods-WindowsAzureMessaging-Example */,
+				D18918A50CC4C71F703F37D264CC7255 /* WindowsAzureMessaging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075CE6012B29723CF6971CD3D387608C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838BB40BF6C02A0BDF7344120F0D33F9 /* SBConnectionString.m in Sources */,
+				BAAC4779D523D308E1EFFFB7E9FB3FC2 /* SBLocalStorage.m in Sources */,
+				A60E6E38B1A714F46EF5EE580BCB3DF9 /* SBNotificationHub.m in Sources */,
+				CBACC73CCEB7D2CA2AE24D18C4E5B0E9 /* SBNotificationHubHelper.m in Sources */,
+				84D7C54B46B622B573570B5EA1794B59 /* SBRegistration.m in Sources */,
+				56454DE4D67477BD68AA9B2C7129AB87 /* SBRegistrationParser.m in Sources */,
+				5CE8125F5DF03BD8845E8BB7288C7E7B /* SBStaticHandlerResponse.m in Sources */,
+				C3E875C8140498D99CCB3C9948749C0B /* SBStoredRegistrationEntry.m in Sources */,
+				9EA8CD7EC1CAA0872DBAC9A7069D30BB /* SBTemplateRegistration.m in Sources */,
+				8BA0BD37BD31C006C4E7F6376921C3E7 /* SBTokenProvider.m in Sources */,
+				01D89291971A4721E0B7AE7FF463DACF /* SBURLConnection.m in Sources */,
+				FB252FD946792636F4FF7FB7C0854B54 /* WindowsAzureMessaging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845AA02BDF7B2E5445EF21D782D766CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EE13AAFB96A60DE2F8B1BFD1C998EC /* Pods-WindowsAzureMessaging-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561520E755A07F13EC95ACF11188BA42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WindowsAzureMessaging;
+			target = D18918A50CC4C71F703F37D264CC7255 /* WindowsAzureMessaging */;
+			targetProxy = B4033AE19A3A4239208BF7F16C07170B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A338614741D961A93D77990AAA78851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A5201AC35F1B57BD0DFCC288EC2256 /* Pods-WindowsAzureMessaging-Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WindowsAzureMessaging-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WindowsAzureMessaging-Example/Pods-WindowsAzureMessaging-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WindowsAzureMessaging_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DD56556E1F6413DDE1FBAEE1CFCB60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7225DC1B93E2F6C8F0E4CC9CFC6E3EE /* WindowsAzureMessaging.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WindowsAzureMessaging/WindowsAzureMessaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WindowsAzureMessaging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WindowsAzureMessaging/WindowsAzureMessaging.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WindowsAzureMessaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96C94350F4AC4B681FE824BF49E3542B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7225DC1B93E2F6C8F0E4CC9CFC6E3EE /* WindowsAzureMessaging.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WindowsAzureMessaging/WindowsAzureMessaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WindowsAzureMessaging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WindowsAzureMessaging/WindowsAzureMessaging.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WindowsAzureMessaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2A5026B10922105948C4902E4A4ECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AE03BA72ECC09C978335BC71C1C12A /* Pods-WindowsAzureMessaging-Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WindowsAzureMessaging-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WindowsAzureMessaging-Example/Pods-WindowsAzureMessaging-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WindowsAzureMessaging_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461AEC67F8127056E5AA35B8724333C2 /* Build configuration list for PBXNativeTarget "WindowsAzureMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C94350F4AC4B681FE824BF49E3542B /* Debug */,
+				8DD56556E1F6413DDE1FBAEE1CFCB60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CE56D55DA9F5515157DAEBFD5E9E68 /* Build configuration list for PBXNativeTarget "Pods-WindowsAzureMessaging-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A5026B10922105948C4902E4A4ECF5 /* Debug */,
+				7A338614741D961A93D77990AAA78851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
